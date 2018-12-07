@@ -1,0 +1,7 @@
+agosmmapwithmarker Changelog
+-----------------
+
+v1.0.0
+In the backend you can insert a address. 
+In the frontend you see the map with a marker.
+
