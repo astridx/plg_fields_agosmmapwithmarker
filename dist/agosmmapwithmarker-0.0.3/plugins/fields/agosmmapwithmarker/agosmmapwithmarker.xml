@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<extension type="plugin" version="3.8.0" group="fields" method="upgrade">
+	<name>plg_fields_agosmmapwithmarker</name>
+	<author>Astrid Günther</author>
+	<creationDate>2018-12-09</creationDate>
+	<copyright>(C) 2018 Astrid Günther. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later;</license>
+	<authorEmail>info@astrid-guenther.de</authorEmail>
+	<authorUrl>www.astrid-guenther.de</authorUrl>
+	<version>0.0.3</version>
+	<description>PLG_FIELDS_AGOSMMAPWITHMARKER_XML_DESCRIPTION</description>
+	<files>
+            <folder>tmpl</folder>
+<file>agosmmapwithmarker.xml</file>
+<folder>params</folder>
+<folder>language</folder>
+<folder>fields</folder>
+<file plugin="agosmmapwithmarker">agosmmapwithmarker.php</file>
+        </files>
+
+	<!-- Media files -->
+	<media
+		folder="media/plg_fields_agosmmapwithmarker"
+		destination="plg_fields_agosmmapwithmarker">
+		<folder>js</folder>
+<folder>leaflet</folder>
+<folder>places</folder>
+	</media>
+	<updateservers>
+		<server 
+                    type="extension" 
+                    name="plg_fields_agosmmapwithmarker Update Site">
+                    https://raw.githubusercontent.com/astridx/plg_fields_agosmmapwithmarker/master/agosmmapwithmarker-update.xml
+                </server>
+	</updateservers> 
+</extension>
