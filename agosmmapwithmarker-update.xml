@@ -1,71 +1,23 @@
+<?xml version="1.0" ?>
 <updates>
-    <update>
-        <name>plg_fields_agosmmapwithmarker</name>
-        <description></description>
-        <element>plg_fields_agosmmapwithmarker</element>
-        <type>plugin</type>
-        <client>site</client>
-        <folder>fields</folder>
-        <version>0.0.1</version>
-        <downloads>
-            <downloadurl 
-                type="full" 
-                format="zip">https://github.com/astridx/plg_fields_agosmmapwithmarker/releases/download/v0.0.1/plg_fields_agosmmapwithmarker.zip</downloadurl>
-        </downloads>
-        <tags>
-            <tag>stable</tag>
-        </tags>
-        <infourl title="agosmmapwithmarker">
-            https://github.com/astridx/plg_fields_agosmmapwithmarker/blob/v0.0.1/README.md
-        </infourl>
-        <maintainer>Astrid Günther</maintainer>
-        <maintainerurl>https://astrid-guenther.de</maintainerurl>
-        <targetplatform name="joomla" version="3.*"/>
-    </update>
-    <update>
-        <name>plg_fields_agosmmapwithmarker</name>
-        <description></description>
-        <element>plg_fields_agosmmapwithmarker</element>
-        <type>plugin</type>
-        <folder>fields</folder>
-        <client>site</client>
-        <version>0.0.2</version>
-        <downloads>
-            <downloadurl 
-                type="full" 
-                format="zip">https://github.com/astridx/plg_fields_agosmmapwithmarker/releases/download/v0.0.2/plg_fields_agosmmapwithmarker.zip</downloadurl>
-        </downloads>
-        <tags>
-            <tag>stable</tag>
-        </tags>
-        <infourl title="agosmmapwithmarker">
-            https://github.com/astridx/plg_fields_agosmmapwithmarker/blob/v0.0.2/README.md
-        </infourl>
-        <maintainer>Astrid Günther</maintainer>
-        <maintainerurl>https://astrid-guenther.de</maintainerurl>
-        <targetplatform name="joomla" version="3.*"/>
-    </update>
-    <update>
-        <name>plg_fields_agosmmapwithmarker</name>
-        <description></description>
-        <element>plg_fields_agosmmapwithmarker</element>
-        <type>plugin</type>
-        <folder>fields</folder>
-        <client>site</client>
-        <version>0.0.3</version>
-        <downloads>
-            <downloadurl 
-                type="full" 
-                format="zip">https://github.com/astridx/plg_fields_agosmmapwithmarker/releases/download/v0.0.3/plg_fields_agosmmapwithmarker.zip</downloadurl>
-        </downloads>
-        <tags>
-            <tag>stable</tag>
-        </tags>
-        <infourl title="agosmmapwithmarker">
-            https://github.com/astridx/plg_fields_agosmmapwithmarker/blob/v0.0.3/README.md
-        </infourl>
-        <maintainer>Astrid Günther</maintainer>
-        <maintainerurl>https://astrid-guenther.de</maintainerurl>
-        <targetplatform name="joomla" version="3.*"/>
-    </update>
+	<update>
+		<name>plg_fields_agosmmapwithmarker</name>
+		<description>plg_fields_agosmmapwithmarker</description>
+		<element>agosmmapwithmarker</element>
+		<type>plugin</type>
+		<folder>fields</folder>
+		<client>site</client>
+		<version>0.0.3</version>
+		<infourl title="agosmmapwithmarker">https://github.com/astridx/plg_fields_agosmmapwithmarker/blob/v0.0.3/README.md</infourl>
+		<downloads>
+			<downloadurl type="full" format="zip">https://github.com/astridx/plg_fields_agosmmapwithmarker/releases/download/v0.0.3/plg_fields_agosmmapwithmarker.zip</downloadurl>
+		</downloads>
+		<tags>
+			<tag>stable</tag>
+		</tags>
+		<maintainer>Astrid Günther</maintainer>
+		<maintainerurl>https://astrid-guenther.de</maintainerurl>
+		<php_minimum>7.0.0</php_minimum>
+		<targetplatform name="joomla" version="3.[89]"/>
+	</update>
 </updates>
