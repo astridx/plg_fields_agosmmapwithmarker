@@ -32,9 +32,6 @@ $unique = $field->id . '_' . uniqid();
 
 $address = JFilterOutput::stringURLSafe($field->rawvalue);
 
-
-
-
 	$curl = curl_init();
 
 	curl_setopt_array($curl, array(
@@ -75,9 +72,6 @@ $address = JFilterOutput::stringURLSafe($field->rawvalue);
 
 	curl_close($curl);
 ?>
-
-
-
 
 <div
 	id="map<?php echo $unique ?>"
