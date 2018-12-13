@@ -4,4 +4,6 @@ agosmmapwithmarker Changelog
 v0.0.1
 In the backend you can insert a address. 
 In the frontend you see the map with a marker.
+v0.0.4
+Update places.js to v1.14
 
