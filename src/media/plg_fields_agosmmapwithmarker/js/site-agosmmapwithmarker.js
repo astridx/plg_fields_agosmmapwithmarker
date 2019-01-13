@@ -18,8 +18,5 @@ document.addEventListener('DOMContentLoaded', function () {
                 var marker = L.marker([lat, lon]).addTo(map);
 
 	});
-        
-
-
 
 }, false);

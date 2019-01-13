@@ -37,16 +37,17 @@ $address = JFilterOutput::stringURLSafe($field->rawvalue);
 
 	$curl = curl_init();
 
-	curl_setopt_array($curl, array(
-		CURLOPT_URL => "https://nominatim.openstreetmap.org/search?q=".$address."&format=json",
-		CURLOPT_RETURNTRANSFER => true,
-		CURLOPT_ENCODING => "",
-		CURLOPT_MAXREDIRS => 10,
-		CURLOPT_TIMEOUT => 30,
-		CURLOPT_REFERER => JPATH_BASE,
-		CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
-		CURLOPT_CUSTOMREQUEST => "POST",
-	));
+	curl_setopt_array(
+		$curl, array(
+			CURLOPT_URL => "https://nominatim.openstreetmap.org/search?q=" . $address . "&format=json",
+			CURLOPT_RETURNTRANSFER => true,
+			CURLOPT_ENCODING => "",
+			CURLOPT_MAXREDIRS => 10,
+			CURLOPT_TIMEOUT => 30,
+			CURLOPT_REFERER => JPATH_BASE,
+			CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
+			CURLOPT_CUSTOMREQUEST => "POST", )
+		);
 
 	$response = curl_exec($curl);
 

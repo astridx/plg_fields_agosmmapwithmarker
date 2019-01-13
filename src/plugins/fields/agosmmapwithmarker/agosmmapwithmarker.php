@@ -17,7 +17,7 @@ JLoader::import('components.com_fields.libraries.fieldsplugin', JPATH_ADMINISTRA
 /**
  * Fields PlgFieldsAgosmmapwithmarker Plugin
  *
- * @since __DEPLOY_VERSION__ 
+ * @since  __DEPLOY_VERSION__ 
  */
 class PlgFieldsAgosmmapwithmarker extends FieldsPlugin
 {

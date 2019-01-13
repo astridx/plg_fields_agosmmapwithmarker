@@ -41,3 +41,13 @@ for converting the address into geographic data - [geocoding](https://en.wikiped
 
 [Nominatin](https://nominatim.openstreetmap.org/) is a search 
 engine for [OpenStreetMap](https://www.openstreetmap.org) data. 
+
+# Support and New Features
+
+This Joomla! Extension is a simple feature. But it is most likely, that your requirements are 
+already covered or require very little adaptation.
+
+If you have more complex requirements, need new features or just need some support, 
+I am open to doing paid custom work and support around this Joomla! Extension. 
+
+Contact me and we'll sort this out!
